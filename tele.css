@@ -1,0 +1,93 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space:nowrap;
+    background-color:whitesmoke;
+    gap:30px;
+}
+input:focus{
+    outline:none;
+}
+input{
+    text-align:center;
+}
+h1{
+    font-size:larger;
+}
+.phone{
+    display:block;
+    width:240px;
+    height:400px;
+    background-color:aliceblue;
+    position:relative;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-radius:20px;
+    padding:0px 0px 20px 0px;
+    margin-bottom:300px;
+    
+
+    
+}
+.dot{
+    background-color: black;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: whitesmoke;
+}
+#check-btn,#clear-btn{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    padding:2px 4px;
+    width:70px;
+    border-radius:5px;
+}
+
+.buttons{
+    background-color: black;  
+    position:absolute;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    bottom:0;
+    height:35px;
+    width:240px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+.results{
+    font-family:monospace;
+    font-style:bold;
+    font-size:1.2rem;
+    padding:3px 3px;
+    white-space:wrap;
+    text-align: center;
+}
+#results-div{
+    width:100%;
+    height:70%;
+    overflow-y:auto;
+    overflow-x:auto;
+}
+::-webkit-scrollbar {
+    width: 0.6em;
+  }
+   
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;    
+  }
